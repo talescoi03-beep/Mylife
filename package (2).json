@@ -1,0 +1,13 @@
+{
+  "name": "my-life",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My Life — personal life-management PWA. Frontend in /frontend, helper API in /backend, database in /supabase.",
+  "scripts": {
+    "test": "npm --prefix frontend test",
+    "test:rls": "node tests/rls.test.mjs",
+    "test:e2e": "node tests/e2e/app.e2e.mjs",
+    "build": "npm --prefix frontend run build"
+  }
+}
